@@ -1,0 +1,8 @@
+# code editor
+.vscode
+.idea
+.vim
+
+## node
+node_modules
+.env
