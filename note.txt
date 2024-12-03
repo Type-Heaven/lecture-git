@@ -1,0 +1,6 @@
+npm i express bcryptjs jsonwebtoken pg sequelize
+
+sequelize init
+sequelize model:create --name User --attributes name:string,email:string,password:string
+sequelize db:migrate
+
